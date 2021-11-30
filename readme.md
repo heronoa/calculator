@@ -1,10 +1,12 @@
-# Calculator 
+# Calculator:
+[Test here](https://heronoa.github.io/calculator/)
+
 ### Features:
 * DOM Manipulation;
 * Practicing TypesScript;
 * Fully operational interface.
 
-## Main Screen the machine is displayed on screen and all changes happens in the machine's screen:
+## Main Screen of the Calculator:
 
 ![alt Calculator in JavaScript](https://github.com/heronoa/calculator/blob/master/imgs/body.png?raw=true)
 
