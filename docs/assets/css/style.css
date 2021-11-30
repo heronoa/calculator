@@ -1,0 +1,92 @@
+/* VARIABLES */
+:root {
+    --bg-color: #7fbcf5;
+    --cal-color: #3e3e3e;
+    --btn-color: #c3c3c3;
+    --kb-color: #353535;
+}
+
+/* OUTSIDE CALCULATRO STYLE */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.calculator {
+    margin-top: 20px ;
+    width: 350px;
+    /* height: 500px; */
+    background-color: var(--cal-color); 
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* INSIDE CALCULATOR STYLE */
+
+/* SCREEN */
+.calculator--screen {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 25px;
+    overflow-x:hidden;
+}
+.calculator--screen-up {
+    border-bottom: 1px solid #7fbcf5;
+    height: 35px;
+}
+.calculator--screen-down {
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+}
+
+/* KEYBOARD */
+.calculator--keyboard {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--kb-color);
+    margin-top: 25px;
+}
+.keyboard--line {
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;    
+    margin-bottom: 5px;
+}
+.keyboard--button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    border: 5px outset;
+    margin:0 5px;
+    cursor: pointer;
+}
+
+.pressed {
+    border: 5px inset;
+}
+
